@@ -153,6 +153,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 7px solid hwb(0 10% 89%);
   border-radius: 4px;
   transition: transform 0.3s ease-in-out;
   background-size: cover;
@@ -194,6 +195,9 @@ footer {
 /****************************************************/
 h1 {
   color: #f8a502; }
+
+a {
+  text-decoration: none; }
 
 .h3 {
   width: 100%; }
