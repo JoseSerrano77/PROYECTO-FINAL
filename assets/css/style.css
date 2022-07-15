@@ -161,6 +161,7 @@ footer {
   margin: auto;
   list-style: none;
   padding: 20px;
+  padding-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -174,7 +175,7 @@ footer {
 .galeria img {
   width: 200px;
   height: 200px;
-  border: 7px solid hwb(0 14% 84%);
+  border: 5px solid #2d2b2e;
   box-shadow: 0px 0px 7px #f8a502;
   cursor: pointer;
   transition: all 300ms; }
@@ -317,7 +318,10 @@ footer {
 
 /****************************************************/
 h1 {
-  color: #f8a502; }
+  color: #f8a502;
+  display: flex;
+  justify-content: center;
+  font-size: 104px; }
 
 /*h1:hover {
     color: white;
@@ -363,3 +367,6 @@ a {
     padding-top: 50px;
     padding-bottom: 100px;
 }*/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 70px; } }
