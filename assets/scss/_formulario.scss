@@ -1,16 +1,22 @@
+
+
+
 /*** FORMULARIO CONTACTO */
 .formulario {
+
     max-width: 1170px;
+    
     margin-left: auto;
     margin-right: auto;
     padding: 1.5em;
-
+    margin-top: 20px;
+    margin-bottom: 50px;
 
 	background: #181818;
     color: map-get($colores, C3 );
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
-    padding: 0 1.5em;
+   
 }
 
 ul {
@@ -29,9 +35,6 @@ ul {
     box-shadow: 0 0 20px 0 map-get($colores, primario );
 }
 
-.cajaForm > * {
-    padding: 1em;
-}
 
 .form {
     background: #222222;
@@ -109,5 +112,20 @@ ul {
     .info ul,
     .info p {
         text-align: left;
+    }
+    h3{
+        
+    padding-left: 15px;
+    padding-top: 5px;
+
+    }
+}
+@media(max-width: 700px) {
+    
+    h3{
+        
+    padding-left: 15px;
+    padding-top: 5px;
+
     }
 }
