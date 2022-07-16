@@ -156,6 +156,9 @@ footer {
   border-color: Black; }
 
 /***ESTILO GALERIA*/
+.contenedorG {
+  padding-top: 0px; }
+
 .galeria {
   width: 100%;
   margin: auto;
@@ -200,7 +203,7 @@ footer {
   color: white;
   font-size: 30px;
   text-align: center;
-  margin: 15 px 0; }
+  margin: 15px 0; }
 
 .imgO {
   width: 100%;
@@ -211,9 +214,10 @@ footer {
 
 .imgO a {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   text-decoration: none;
-  margin: 0 10px; }
+  margin: 0 10px;
+  font-weight: bolder; }
 
 .imgO a:nth-child(2) {
   margin: 0;
@@ -240,6 +244,12 @@ footer {
   padding: 5px;
   border-radius: 50%;
   line-height: 10px; }
+
+@media (min-width: 800px) {
+  .mover {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: none; } }
 
 .discograf {
   padding: 80px; }
