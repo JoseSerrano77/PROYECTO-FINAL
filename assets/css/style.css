@@ -248,7 +248,8 @@ footer {
 @media (min-width: 800px) {
   .mover {
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
     display: none; } }
 
 .discograf {
