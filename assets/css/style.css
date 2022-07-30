@@ -327,7 +327,35 @@ footer {
 .vid img:hover {
   transform: scale(1.04); }
 
+.classredes {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; }
+
+.redes {
+  padding: 16px;
+  padding-bottom: 4px;
+  color: #f8a502;
+  font-size: 20px;
+  transition: all 300ms; }
+
+.redes:hover {
+  color: white; }
+
 /****************************************************/
+.fondoIndex {
+  background-color: black; }
+
+.fondo {
+  background-image: url(../img/fondo2.jpg); }
+
+#miVideo {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 80px;
+  padding-left: 50px;
+  padding-right: 50px; }
+
 h1 {
   color: #f8a502;
   display: flex;
@@ -344,8 +372,9 @@ a {
   width: 100%; }
 
 .tituloIndex, .entrar {
+  padding-top: 50px;
   animation-name: aparecer;
-  animation-duration: 5s; }
+  animation-duration: 10s; }
 
 .entrar {
   display: flex;
@@ -369,6 +398,15 @@ a {
   transform: scale(1.1);
   transition: 500ms; }
 
+.Logo2_img {
+  width: 30%;
+  animation-name: aparecer;
+  animation-duration: 15s; }
+
+.Logo2_img:hover {
+  transform: scale(1.1);
+  transition: 500ms; }
+
 /*************************
 
 .imgHome{
@@ -378,6 +416,14 @@ a {
     padding-top: 50px;
     padding-bottom: 100px;
 }*/
+@media (max-width: 1400px) {
+  h1 {
+    font-size: 90px; } }
+
+@media (max-width: 1200px) {
+  h1 {
+    font-size: 80px; } }
+
 @media (max-width: 768px) {
   h1 {
     font-size: 70px; } }

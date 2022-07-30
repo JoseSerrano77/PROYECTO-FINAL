@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%; 
     box-sizing: border-box;
+    
 }
 @import "_animaciones.scss";
 @import "_variables.scss";
@@ -13,9 +14,32 @@
 @import "_galeria.scss";
 @import "_discografia.scss";
 @import "_videos.scss";
+@import"_redesSociales.scss";
 
 
 /****************************************************/
+
+.fondoIndex{
+    background-color: map-get($colores, secundario);
+  
+   
+}
+.fondo {
+background-image:url(../img/fondo2.jpg);
+
+}
+
+#miVideo{
+
+ position:relative;
+ padding-top: 50px;
+padding-bottom: 80px;
+padding-left: 50px;
+padding-right: 50px;
+  
+   
+   
+}
 h1{
     color: map-get($colores, primario);
    display: flex;
@@ -37,8 +61,9 @@ width: 100%;
 }
 
 .tituloIndex{
+    padding-top: 50px;
 animation-name: aparecer;
-animation-duration: 5s;
+animation-duration: 10s;
 
 }
 
@@ -86,9 +111,19 @@ animation-duration: 5s;
     transition:   500ms ;
  
 }
+.Logo2_img {
+    width: 30%;
+  
+    
+    animation-name: aparecer;
+animation-duration: 15s;
+}
 
-
-
+.Logo2_img:hover{
+    transform: scale(1.10);
+    transition:   500ms ;
+ 
+}
 /*************************
 
 .imgHome{
@@ -99,6 +134,24 @@ animation-duration: 5s;
     padding-bottom: 100px;
 }*/
 
+@media(max-width: 1400px) {
+    
+    h1{
+        
+       font-size:90px ;
+    
+    }
+}
+@media(max-width: 1200px) {
+    
+    h1{
+        
+       font-size:80px ;
+    
+    }
+
+    }
+
 @media(max-width: 768px) {
     
     h1{
@@ -108,3 +161,5 @@ animation-duration: 5s;
     }
 
     }
+
+   
